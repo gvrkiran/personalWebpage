@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Kiran's Homepage</title>
+  <meta name="description" content="Kiran Garimella's personal webpage" />
+  <meta name="keywords" content="kiran garimella, venkata rama kiran garimella" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+
+<script>
+function getNumDaysSince() {
+	var today = new Date();
+	var date_to_reply = new Date('2014-01-03');
+	var timeinmilisec = today.getTime() - date_to_reply.getTime();
+//	console.log( Math.floor(timeinmilisec / (1000 * 60 * 60 * 24)) );
+	return Math.floor(timeinmilisec / (1000 * 60 * 60 * 24));
+}
+
+</script>
+
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Kiran<span class="logo_colour">Garimella</span></a></h1>
+          <h2>PhD Student, Aalto University.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="misc.html">Misc</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <img src="images/kiran.png" height=127 width=124 alt="Kiran Garimella" />
+        <p>Email: kiran.garimella @ aalto.fi
+        <script>document.write(getNumDaysSince() + " days into my PhD.");</script></p>
+            	<ul>
+			<li><a href="https://www.dropbox.com/s/867jrysexcdtijk/Kiran_Resume.pdf">Resume</a></li>
+                        <li><a href="http://scholar.google.com/citations?user=PH96F4oAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+                        <li><a href="https://in.linkedin.com/in/gvrkiran" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/gvrkiran" target="_blank">Github</a></li>
+                  	<li><a href="http://www.twitter.com/gvrkiran" target="_blank">Twitter</a></li>
+                </ul>
+
+        <p></p>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>(Venkata Rama) Kiran Garimella</h1>
+        <p>I am a PhD student at Aalto University, Helsinki, working under the supervision of Prof. <a href="https://users.ics.aalto.fi/gionis" target="_blank">Aris Gionis</a>. My PhD thesis is on identifying and countering online filter bubbles using algorithmic techniques. My broad research interests include Computational Social Science, Graphs, Data Mining, and Machine Learning. </p>
+	<p>Before starting my PhD, I worked at Yahoo Research and Qatar Computing Research Institute for a few years (more <a href="experience.html">here</a>). I completed my Masters (by research) and Bachelors (Honours) in Computer Science from <a href="https://www.iiit.ac.in/" target="_blank">IIIT-Hyderabad</a> under the supervision of Prof. <a href="http://faculty.iiit.ac.in/~vikram/" target="_blank">Vikram Pudi</a>. </p>
+        <p>During my research career, I've been fortunate enough to work on a wide range of topics, incudling Data Mining, Natural Language Processing, Distributed Computing, and Computational Social Science. I've also been involved in many inter disciplinary projects, invovling social scientists, psychologists, political scientists, and demographers (See <a href="publications.html">publications</a>). My work has been covered extensively in the <a href="media.html">international media</a>.</p>
+
+        <h2>Recent News</h2>
+        <ul>
+          <li><b>Feb 2017: I'll be graduating soon and I'm looking for post-doc positions!</b></li>
+          <li><b>Feb 2017</b>: Two posters and a demo accepted at WWW 2017!</li>
+          <li><b>Feb 2017</b>: Our tutorial titled 'Polarization on Social Media' has been accepted at ICWSM 2017!</li>
+          <li><b>Feb 2017</b>: Gave talks at Kings College, Queen Mary University (London) and University of Edinburgh about Polarization on social media (<a href="https://www.dropbox.com/s/dfcmvtb673fxjb8/edinburgh_talk.pptx?dl=0">Slides</a>).</li>
+          <li><b>Feb 2017</b>: Best Student Paper award at WSDM 2017.</li>
+          <li><b>Nov 2016</b>: Gave a fun talk at Science Slam Helsinki about our paper on relationship breakups (<a href="https://www.dropbox.com/s/s0jf82537xr96ee/ScienceSlam_Helsinki.pptx?dl=0">Slides</a>).</li>
+          <li><b>Oct 2016</b>: Gave a talk at PyCon Helsinki about visualising Twitter discussions (<a href="http://fi.pycon.org/2016/#talks-twitter-discussions">Link</a>, <a href="https://www.youtube.com/watch?v=rGRuhVKd3D4">Video</a>).</li>
+        </ul>
+      </div>
+    </div>
+    <div id="footer">
+	<p style="text-align:center;color:black;"> Last modified <script>var x = document.lastModified;document.write(x)</script> | Based on a template from <a href="http://www.html5webtemplates.co.uk" target="_blank">HTML5 Web Templates</a>
+    </div>
+  </div>
+</body>
+</html>
