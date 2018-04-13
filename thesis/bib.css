@@ -43,24 +43,24 @@ ul {
   background-size: contain !important;
 }
 
-#wsdm16thumb .paperThumbnail:hover { background: url(wsdm16_first.png) no-repeat; }
-#wsdm16thumb .paperThumbnail { background: url(wsdm16_fig.png) no-repeat; }
-#mauro17thumb .paperThumbnail:hover { background: url(mauro17_first.png) no-repeat; }
-#mauro17thumb .paperThumbnail { background: url(mauro17_fig.png) no-repeat; }
-#websci17thumb .paperThumbnail:hover { background: url(websci17_first.png) no-repeat; }
-#websci17thumb .paperThumbnail { background: url(websci17_fig.png) no-repeat; }
-#ingmar17thumb .paperThumbnail:hover { background: url(ingmar17_first.png) no-repeat; }
-#ingmar17thumb .paperThumbnail { background: url(ingmar17_fig.png) no-repeat; }
-#wsdm17thumb .paperThumbnail:hover { background: url(wsdm17_first.png) no-repeat; }
-#wsdm17thumb .paperThumbnail { background: url(wsdm17_fig.png) no-repeat; }
-#webscishort17thumb .paperThumbnail:hover { background: url(webscishort17_first.png) no-repeat; }
-#webscishort17thumb .paperThumbnail { background: url(webscishort17_fig.png) no-repeat; }
-#nips17thumb .paperThumbnail:hover { background: url(nips17_first.png) no-repeat; }
-#nips17thumb .paperThumbnail { background: url(nips17_fig.png) no-repeat; }
-#www18thumb .paperThumbnail:hover { background: url(www18_first.png) no-repeat; }
-#www18thumb .paperThumbnail { background: url(www18_fig.png) no-repeat; }
-#thesis18thumb .paperThumbnail:hover { background: url(thesis18_first.png) no-repeat; }
-#thesis18thumb .paperThumbnail { background: url(thesis18_fig.png) no-repeat; }
+#wsdm16thumb .paperThumbnail:hover { background: url(img/wsdm16_first.png) no-repeat; }
+#wsdm16thumb .paperThumbnail { background: url(img/wsdm16_first.png) no-repeat; }
+#mauro17thumb .paperThumbnail:hover { background: url(img/mauro17_first.png) no-repeat; }
+#mauro17thumb .paperThumbnail { background: url(img/mauro17_first.png) no-repeat; }
+#websci17thumb .paperThumbnail:hover { background: url(img/websci17_first.png) no-repeat; }
+#websci17thumb .paperThumbnail { background: url(img/websci17_first.png) no-repeat; }
+#ingmar17thumb .paperThumbnail:hover { background: url(img/ingmar17_first.png) no-repeat; }
+#ingmar17thumb .paperThumbnail { background: url(img/ingmar17_first.png) no-repeat; }
+#wsdm17thumb .paperThumbnail:hover { background: url(img/wsdm17_first.png) no-repeat; }
+#wsdm17thumb .paperThumbnail { background: url(img/wsdm17_first.png) no-repeat; }
+#webscishort17thumb .paperThumbnail:hover { background: url(img/webscishort17_first.png) no-repeat; }
+#webscishort17thumb .paperThumbnail { background: url(img/webscishort17_first.png) no-repeat; }
+#nips17thumb .paperThumbnail:hover { background: url(img/nips17_first.png) no-repeat; }
+#nips17thumb .paperThumbnail { background: url(img/nips17_first.png) no-repeat; }
+#www18thumb .paperThumbnail:hover { background: url(img/www18_first.png) no-repeat; }
+#www18thumb .paperThumbnail { background: url(img/www18_first.png) no-repeat; }
+#thesis18thumb .paperThumbnail:hover { background: url(img/thesis18_first.png) no-repeat; }
+#thesis18thumb .paperThumbnail { background: url(img/thesis18_first.png) no-repeat; }
 
 .card {
   transition: box-shadow .25s;
