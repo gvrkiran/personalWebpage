@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	line-height: 1;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+/*
+body {
+	background: url("img/paper-bg.png") repeat scroll;
+	position: relative;
+}
+*/
+
+.title {
+	position: absolute;
+	margin: 20px;
+	top: 0px;
+	left: 0px;
+}
+
+/* Phones, portrait, normally 320px */ 
+@media only screen and (min-width : 0px) {
+	.title {
+		margin: 1vw;
+		max-height: 18vw;
+		height: auto;
+		width: auto;
+	}
+	.stretch {
+		margin-left: -30px;
+		margin-right: -110px;
+		
+	}
+	body {
+		overflow-x: hidden;
+	}
+	.pyatno { opacity: 0.7; }
+	.pyatno:hover { opacity: 1; }
+}
+
+/* Phones, landscape */ 
+@media only screen and (min-width : 480px) {
+	.title {
+		margin: 1vw;
+		max-width: 45vw;
+		height: auto;
+		width: auto;
+	}
+	.stretch {
+		margin: 0;
+	}
+}
+
+/* Tablets, protrait */
+@media only screen and (min-width : 768px) {
+	.title {
+		margin: 2vw;
+		max-width: 48vw;
+		height: auto;
+		width: auto;
+	}
+	.stretch {
+		margin-left: -30px;
+		margin-right: -110px;
+		
+	}
+}
+
+/* Tablets, landscape */
+@media only screen and (min-width : 992px) {
+	.title {
+		margin: 1vw;
+		max-width: 40vw;
+		max-height: 14vh;
+		height: auto;
+		width: auto;
+	}
+	.stretch {
+		max-height: 100%;
+		max-width: 100%;
+	}
+	.pyatno { opacity: 0; }
+}
+
+/* Desktops */
+@media only screen and (min-width : 1200px) {
+	.title {
+		margin: 15px;
+		max-height: 14vh;
+	}
+	.stretch {
+		max-height: 100%;
+		max-width: 100%;
+	}
+}
